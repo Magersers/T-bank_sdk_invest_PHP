@@ -63,7 +63,7 @@ $orderid - уникально id, которое вы получаете при 
   <li>$col - кол-во</li>
 </ul>
 <h3>Закрытие стоп-ордера</h3>
-<code>n $tb -> StopOrderStop($orderId)</code>
+<code>$tb -> StopOrderStop($orderId)</code>
 
 <h3>Получение цены акции</h3>
 <code>$tb -> PriseShare('BBG000R04X57')</code>
